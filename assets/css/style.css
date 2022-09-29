@@ -827,6 +827,48 @@ button:focus {
   border-radius: 5px;
 }
 
+.blog-bottom h2{
+  position: relative;
+}
+
+.blog-bottom h2::before {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  width: 470px;
+  height: 3px;
+  background-color: #17d0b3;
+  border-radius: 5px;
+}
+
+.blog-bottom .h2{
+  position: relative;
+}
+
+.blog-bottom .h2:before {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  width: 487px;
+  height: 3px;
+  background-color: #17d0b3;
+  border-radius: 5px;
+}
+
+.blog-bottom .h{
+  position: relative;
+}
+
+.blog-bottom .h:before {
+  position: absolute;
+  content: '';
+  bottom: -4px;
+  width: 350px;
+  height: 3px;
+  background-color: #17d0b3;
+  border-radius: 5px;
+}
+
 .service-item {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 0px 25px 0px #ddddddbf;
